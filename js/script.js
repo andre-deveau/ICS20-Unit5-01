@@ -7,7 +7,7 @@
 "use strict"
 
 /**
- * This function updates the slider value.
+ * Check service worker.
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register(
@@ -18,10 +18,16 @@ if (navigator.serviceWorker) {
   )
 }
 
+/**
+ * This function generates a random number between 1 and 6
+ */
 const randomNumebr = Math.floor(Math.random() * 6) + 1
 
+/**
+ * This fucntion updates the sldier value.
+ */
 function updateSliderValue(valueFromSlider) {
-  document.getElementById("answer").innerHTML = valueFromSlider
+  document.getElementById("slider-value").innerHTML = valueFromSlider
 
   // process
   if (valueFromSlider == randomNumber) {
