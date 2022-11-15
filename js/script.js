@@ -21,7 +21,7 @@ if (navigator.serviceWorker) {
 /**
  * This function generates a random number between 1 and 6
  */
-const randomNumebr = Math.floor(Math.random() * 6) + 1
+const randomNumber = Math.floor(Math.random() * 6) + 1
 
 /**
  * This fucntion updates the sldier value.
