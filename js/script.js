@@ -32,10 +32,9 @@ function updateSliderValue(valueFromSlider) {
   // process
   if (valueFromSlider == randomNumber) {
     document.getElementById("answer").innerHTML =
-      "The answer was, " + randomNumber + "!" + " You got it! Good Job."
+      "The answer was, " + randomNumber + "!" + " You got it!"
   }
 
-  // blocks of code to be executed if condition1 is true
   if (valueFromSlider != randomNumber) {
     document.getElementById("answer").innerHTML =
       "The answer was, " + randomNumber + "!" + " Nice guess, but try again."
