@@ -3,7 +3,7 @@
   "short_name": "Andre Deveau's App",
   "description": "Github Page for Mr Coxall's App",
   "scope": "/ICS20-Unit5-01/",
-  "start_url": "/ICS2O-PWA-Template/",
+  "start_url": "/ICS20-Unit5-01/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "display": "standalone", 
